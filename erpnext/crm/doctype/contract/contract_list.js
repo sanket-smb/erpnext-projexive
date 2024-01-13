@@ -8,7 +8,7 @@ frappe.listview_settings['Contract'] = {
 		} else if (doc.status == "Inactive") {
 			return [__(doc.status), "gray", "status,=," + doc.status];
 		}else if (doc.status == "Hold") {
-                        return [__(doc.status), "grey", "status,=," + doc.status];
+        	return [__(doc.status), "grey", "status,=," + doc.status];
 		}
 	},
 };
